@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "小红书视频下载助手",
+  "version": "1.0",
+  "description": "检测并下载小红书视频",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*.xiaohongshu.com/*",
+    "*://*.xhscdn.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.xiaohongshu.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
