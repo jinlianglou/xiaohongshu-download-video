@@ -48,7 +48,7 @@ async function initialize() {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
     if (!tab?.url?.includes('xiaohongshu.com')) {
       document.getElementById('videoList').innerHTML = 
-        '<div class="no-video">请在小红书网站上使用此插件</div>';
+        '<div class="no-video">此插件在浏览小红书时有效</div>';
       return;
     }
 
