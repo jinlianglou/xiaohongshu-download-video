@@ -4,10 +4,7 @@
   "version": "1.0",
   "description": "检测并下载小红书视频",
   "permissions": [
-    "activeTab",
-    "downloads",
-    "scripting",
-    "webRequest"
+    "downloads"
   ],
   "host_permissions": [
     "*://*.xiaohongshu.com/*",
@@ -16,9 +13,9 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/icon.png",
-      "48": "images/icon.png",
-      "128": "images/icon.png"
+      "16": "images/icon02.png",
+      "48": "images/icon02.png",
+      "128": "images/icon02.png"
     }
   },
   "content_scripts": [
