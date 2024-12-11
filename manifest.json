@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "小红书视频下载助手",
+  "name": "__MSG_appName__",
   "version": "1.0",
-  "description": "检测并下载小红书视频",
+  "description": "__MSG_appDesc__",
+  "default_locale": "zh_CN",
   "permissions": [
     "downloads"
   ],

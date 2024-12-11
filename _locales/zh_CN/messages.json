@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "小红书视频下载助手",
+    "description": "扩展名称"
+  },
+  "appDesc": {
+    "message": "检测并下载小红书视频",
+    "description": "扩展描述"
+  }
+} 
